@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pomodoro clock -Free Code Camp</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <div class="container-fluid">
+     <div class="col-xl-12">
+         <div class="frame">
+            <div class="white-shadow">
+                <div class="clock-menu">
+                    <div class="label"><span class="label-text">break</span>
+                        <span>session</span>
+                    </div>
+                    <div class="settings">
+                         <span role="button" id="break-decrease" class="align">-</span>
+                         <div id="break-time" class="align">5</div>
+                         <span role="button" id="break-increase" class="align">+</span>
+
+                         <div role="button" id="session-decrease" class="align">-</div>
+                         <div id="session-length" class="session-time align" >25</div>
+                         <div role="button" id="session-increase" class="align">+</div>
+                         <div class="clearfix"></div>
+                    </div>
+
+                     <div class="display">
+                         <div id="clock-munites" class="couter-style">25</div>
+                         <div class="colon">:</div>
+                         <div id="clock-seconds" class="couter-style">00</div>
+                     </div>
+
+                      <div role="button" class="start-session-style" id="start-session" ><i class="fa fa-play" aria-hidden="true"></i></div>
+                      <div role="button" id="reset"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+                </div>
+            </div>
+         </div>
+
+         <div class="backpic"></div>
+         <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique"  target="_blank" class="learn-more"><i class="fa fa-info-circle" aria-hidden="true"></i> Learn more</a>
+     </div>
+    </div>
+
+    <script src="js/index.js"></script>
+
+</body>
+<footer>
+          <div class="text-center" > coded By Atanas Beychev <a href="https://github.com/morfeibox" role="button" target='_blank'><i  class="fa fa-github git" aria-hidden="true">
+          </i></a></div>
+</footer>
+</html>
